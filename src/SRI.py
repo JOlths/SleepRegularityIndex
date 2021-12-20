@@ -1,7 +1,7 @@
 import numpy as numpy
 import pandas as pd
 
-def SRI_score(epochs_per_day=1440, sleep_data=pd.DataFrame()):
+def SRI_score(epochs_per_day=1440, sleep_data):
 	''' Calculate SRI score '''
 	pass
 
@@ -11,9 +11,12 @@ def explore_data(sleep_data):
 	# check if dataset is a python dataframe
 	assert type(sleep_data) == pd.DataFrame()
 
-	# 
+	# check for missing values
+	print(f"{np.sum(np.isna(sleep_data))} missing values found")
 
-	pass
+	#
+
+	
 
 
 if __name__ == "__main__":
