@@ -1,4 +1,4 @@
-# Sleep Regulariy Index
+# Sleep Regularity Index
 
 
 ## References
